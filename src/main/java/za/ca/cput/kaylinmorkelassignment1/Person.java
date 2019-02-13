@@ -38,7 +38,7 @@ public class Person
     /////////
 //TO STRING
     public String toString() {
-        return ("I am " + getName() + ". \nI am " + getAge() + " years old and I have been studying for "
+        return ("Hi, nice to meet you, " + getName() + ". \nYou are " + getAge() + " years old and kudos to studying for"
                 + getYearStudy() + " years.");
     }
 ///////////

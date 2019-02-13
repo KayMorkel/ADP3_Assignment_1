@@ -69,7 +69,9 @@ public class Gui extends JFrame implements ActionListener
             Person p1 = new Person(nm.getText(), Integer.parseInt(a.getText()), Integer.parseInt(ys.getText()));
 
             display.append(p1.toString());
-        }
+            display.setBackground(Color.PINK);
+         
+    }
     }
 }
 
