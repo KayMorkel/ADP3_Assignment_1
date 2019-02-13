@@ -6,6 +6,7 @@ import java.awt.*;
 
 public class Gui extends JFrame implements ActionListener
 {
+    //Added a Comment to test the push
     //Labels CHANGE
     private JLabel heading = new JLabel("Who are you?");
     private JLabel name = new JLabel("What is your name?");
